@@ -1,0 +1,143 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/* FONTS FACE */
+@font-face {
+    font-family: "Trickax";
+    src: url("Metal_font__TRICKAX_by_tople.eot?") format("eot"), url("Metal_font__TRICKAX_by_tople.woff") format("woff"), url("Metal_font__TRICKAX_by_tople.ttf") format("truetype"), url("Metal_font__TRICKAX_by_tople.svg#Trickax") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+/* Root */
+:root{
+    --background: #EAE9DB;
+    --darkerBackground:#d6d5ca;
+    --secondary: #3217C2;
+    --accent: #0AC204;
+}
+/* Resets */
+ul{
+    text-align: left;
+}
+li a,li a:visited{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: var(--accent);
+
+}
+a:hover{
+    color: var(--accent);
+
+}
+hr{
+    margin-top: 0;
+    border:  var(--accent) solid 1px;
+}
+main hr{
+    border: var(--accent) solid 1px;
+    width: 50%;
+}
+body{
+    background-color: var(--background);
+    padding: 0;
+}
+/* Header */
+header img{
+    width: 10%;
+    height: auto;
+}
+h1{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Trickax';
+    font-size: 3em;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+header ul{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+header li{
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1%;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+main p{
+    width: 50%;
+}
+.shots{
+    
+    width: 50%;
+    height: auto;
+}
+figure{
+    width: 40%;
+}
+figure img{
+    width: 60%;
+    height: auto;
+}
+.creature{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .gif{
+    width: 10%;
+    height: 10%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2{
+    font-size: 3em;
+}
+table{
+    border: var(--accent) solid 1px;
+
+}
+.download{
+    width: 20%;
+    height: auto;
+}
+.line{
+    text-decoration: line-through;
+}
